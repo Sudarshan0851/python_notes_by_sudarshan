@@ -9,14 +9,25 @@ The content covers fundamentals to intermediate-level topics with examples.
 ---
 
 ##Topics Covered
-- Python Basics (Syntax, Variables, Data Types)
-- Control Flow (if-else, loops)
-- Functions & Modules
-- Data Structures (List, Tuple, Set, Dictionary)
-- File Handling
-- Object-Oriented Programming (OOP)
-- Exception Handling
-- Libraries & Useful Built-in Functions
+- python_notebook (Syntax, Variables, Data Types)
+
+      Numerical Data types
+      Arthematic operations
+      floor & ceil
+      Variables
+      Types of errors
+      Rules to create Variables or syntax of python
+      strings and i/p function
+      string
+      escape characters
+      conditional statements(if else elif)
+      Logical Operators(AND,OR,NOT)
+      Nested Conditions
+      Terinary Operators
+      LOOPS
+      Data Structures (List, Tuple, Set, Dictionary)
+      Nested Loops
+-functions notes
 
 ---
 
