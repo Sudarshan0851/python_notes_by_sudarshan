@@ -27,7 +27,12 @@ The content covers fundamentals to intermediate-level topics with examples.
       LOOPS
       Data Structures (List, Tuple, Set, Dictionary)
       Nested Loops
--functions notes
+-function
+
+      how to create functions
+      args 
+      kwargs
+      problems to practice
 
 ---
 
