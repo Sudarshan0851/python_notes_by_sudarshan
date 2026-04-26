@@ -40,8 +40,8 @@ The content covers fundamentals to intermediate-level topics with examples.
       map()
       age = [20,16,23,15,32,27,14,19,15,12,20]
       check above elements in the list and print who is eligble for voting
-      
--
+      filter function 
+      after that solved some problems on given topics
 
 ---
 
