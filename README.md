@@ -38,6 +38,8 @@ The content covers fundamentals to intermediate-level topics with examples.
       List comprehension
       Lambda Functions 
       map()
+      age = [20,16,23,15,32,27,14,19,15,12,20]
+      check above elements in the list and print who is eligble for voting
       
 -
 
