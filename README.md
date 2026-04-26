@@ -33,6 +33,10 @@ The content covers fundamentals to intermediate-level topics with examples.
       args 
       kwargs
       problems to practice
+-LC_lambda_filter_map
+      List comprehension
+      
+-
 
 ---
 
