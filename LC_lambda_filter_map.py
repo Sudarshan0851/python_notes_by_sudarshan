@@ -5,14 +5,14 @@ syntax --->[item for item in collection <condition>]
 """
 
 
-"""fruit = ["apple", "banana", "cherry","mango","orange"]
+fruit = ["apple", "banana", "cherry","mango","orange"]
 new=[]
 for i in fruit:
     if "e" in i:
         new.append(i)
 
 print(new)
-"""
+
 
 l2 = ["java","orange","apple","python"]
 def check(l):
