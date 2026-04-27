@@ -42,7 +42,11 @@ The content covers fundamentals to intermediate-level topics with examples.
       check above elements in the list and print who is eligble for voting
       filter function 
       after that solved some problems on given topics
+-Solved assignment for practice
 
+      list 
+      tuple
+      
 ---
 
 ## Purpose
