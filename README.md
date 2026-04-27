@@ -46,6 +46,8 @@ The content covers fundamentals to intermediate-level topics with examples.
 
       list 
       tuple
+      set
+      doubt section
       
 ---
 
