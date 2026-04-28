@@ -53,7 +53,7 @@ The content covers fundamentals to intermediate-level topics with examples.
       what is file handling 
       4 modes --> x,w,a,r
       Pickling
-      
+      #serialisation
 ---
 
 ## Purpose
