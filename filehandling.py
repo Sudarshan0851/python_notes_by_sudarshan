@@ -25,7 +25,7 @@ f.close()
 #the process of converting the 2d data into 1d (bytes)is known as serialization
 #the process of converting the 1d data into 2d is known as deserialization
 #why we need to pickel the data ?
-#to transferred over the network
+
 #to build the ml models convert the file into the pickel
 #serialisation
 import pickle
