@@ -54,6 +54,7 @@ The content covers fundamentals to intermediate-level topics with examples.
       4 modes --> x,w,a,r
       Pickling
       #serialisation
+-OOP's Notes
 ---
 
 ## Purpose
