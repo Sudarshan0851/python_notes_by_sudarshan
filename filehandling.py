@@ -1,7 +1,7 @@
 #what is  file handling?
 #handling files except python file is known as file handling ex:-text,json,csv,excel,etc..
 #to handle other files in python we use the "open(file name ,"mode")"
-#while handling the files wee have 4 modes ---> x,w,a,r
+#while handling the files wee have 4 modes ---> x,w,a,r.
 #1. x- mode is used to create a new file
 """f= open("text.txt","x")
 f.close()
