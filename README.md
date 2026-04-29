@@ -55,6 +55,10 @@ The content covers fundamentals to intermediate-level topics with examples.
       Pickling
       #serialisation
 -OOP's Notes
+
+      what is OOP
+      Iterators
+
 ---
 
 ## Purpose
