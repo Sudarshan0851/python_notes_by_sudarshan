@@ -65,6 +65,7 @@ The content covers fundamentals to intermediate-level topics with examples.
       ML
       recursive
       Hcl
+      extract numeric data from above 2 texts
 ---
 
 ## Purpose
