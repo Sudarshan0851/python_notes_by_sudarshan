@@ -61,10 +61,10 @@ The content covers fundamentals to intermediate-level topics with examples.
 
 -Regular expression
 
-      #data science
+      data science
       ML
       recursive
-
+      Hcl
 ---
 
 ## Purpose
