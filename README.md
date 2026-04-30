@@ -59,6 +59,8 @@ The content covers fundamentals to intermediate-level topics with examples.
       what is OOP
       Iterators
 
+-Regular expression
+
 ---
 
 ## Purpose
