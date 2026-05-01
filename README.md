@@ -66,6 +66,11 @@ The content covers fundamentals to intermediate-level topics with examples.
       recursive
       Hcl
       extract numeric data from above 2 texts
+
+-python_quetion_for_practice
+
+      practice quetion python
+      map,loops,conditional statments
 ---
 
 ## Purpose
