@@ -79,6 +79,12 @@ The content covers fundamentals to intermediate-level topics with examples.
       essential methods in Numpy to access the data
       element wise maths operations
       Dot Product
+      2D Array's
+      Dot product on 2D rray is known as matrix mutliplication
+      Boolean Indexing
+      reshaping array's
+      Genarate Random Numbers
+      solving the linear systems
 ---
 
 ## Purpose
