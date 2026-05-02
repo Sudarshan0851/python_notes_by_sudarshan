@@ -85,6 +85,7 @@ The content covers fundamentals to intermediate-level topics with examples.
       reshaping array's
       Genarate Random Numbers
       solving the linear systems
+
 ---
 
 ## Purpose
