@@ -71,6 +71,12 @@ The content covers fundamentals to intermediate-level topics with examples.
 
       practice quetion python
       map,loops,conditional statments
+-Numpy notes
+
+      Introduction to Numpy
+      What are all numerical operations acheived easily with numpy
+      The central object in numpy is Numpy array
+      essential methods in Numpy to access the data
 ---
 
 ## Purpose
