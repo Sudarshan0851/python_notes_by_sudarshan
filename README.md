@@ -93,6 +93,7 @@ pandas
       DataFrame
       DataFrame function
       Handling the missing data
+      Data Manipulation in Pandas
       
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
