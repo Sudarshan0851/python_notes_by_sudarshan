@@ -86,6 +86,18 @@ The content covers fundamentals to intermediate-level topics with examples.
       Genarate Random Numbers
       solving the linear systems
 
+pandas
+
+      Pandas Introduction
+      Series :- 1D labelled array
+      DataFrame
+      
+#There are 3 types of data structures in pandas
+#1. Series :- 1D labelled array
+#2. DataFrame :- 2D like tabular format having rows and columns
+#3. Panel :- Multidimensional data structures
+Series :- 1D labelled array
+
 ---
 
 ## Purpose
