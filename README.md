@@ -91,6 +91,8 @@ pandas
       Pandas Introduction
       Series :- 1D labelled array
       DataFrame
+      DataFrame function
+      Handling the missing data
       
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
