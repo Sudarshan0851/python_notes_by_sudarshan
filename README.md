@@ -98,6 +98,8 @@ pandas
 
 -Data Visualization Notes
       
+      Introduction to Data visualisation
+      
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
 #2. DataFrame :- 2D like tabular format having rows and columns
