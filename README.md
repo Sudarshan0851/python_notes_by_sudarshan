@@ -101,7 +101,7 @@ pandas
       Introduction to Data visualisation
       matplotlib
       seaborn
-      
+
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
 #2. DataFrame :- 2D like tabular format having rows and columns
