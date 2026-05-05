@@ -107,6 +107,8 @@ pandas
       some quetios about
       -data visualisation
       -numpy
+      -pandas
+      
       
 
 #There are 3 types of data structures in pandas
