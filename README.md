@@ -96,11 +96,13 @@ pandas
       Handling the missing data
       Data Manipulation in Pandas
 
--Data Visualization Notes
+-Data Visualiz=sation Notes
       
       Introduction to Data visualisation
       matplotlib
       seaborn
+
+-Data visualisation assignment
 
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
