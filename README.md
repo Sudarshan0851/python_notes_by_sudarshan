@@ -95,11 +95,13 @@ pandas
       DataFrame function
       Handling the missing data
       Data Manipulation in Pandas
+      
 
 panadas assignment
 
       DataFrame basics
       DataFrames: beyond the basics
+      Series and DatetimeIndex
 
 -Data Visualiz=sation Notes
       
