@@ -102,6 +102,7 @@ panadas assignment
       DataFrame basics
       DataFrames: beyond the basics
       Series and DatetimeIndex
+      there is 30+ quetions for practice
 
 -Data Visualiz=sation Notes
       
