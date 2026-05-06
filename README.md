@@ -96,6 +96,10 @@ pandas
       Handling the missing data
       Data Manipulation in Pandas
 
+panadas assignment
+
+      DataFrame basics
+
 -Data Visualiz=sation Notes
       
       Introduction to Data visualisation
@@ -109,6 +113,7 @@ pandas
       -numpy
       -pandas
       -Data Cleaning 
+
       
 
 #There are 3 types of data structures in pandas
