@@ -99,6 +99,7 @@ pandas
 panadas assignment
 
       DataFrame basics
+      DataFrames: beyond the basics
 
 -Data Visualiz=sation Notes
       
