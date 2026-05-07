@@ -85,8 +85,6 @@ The content covers fundamentals to intermediate-level topics with examples.
       Boolean Indexing
       reshaping array's
       Genarate Random Numbers
-      solving the linear systems
-
 pandas
 
       Pandas Introduction
