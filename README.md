@@ -124,8 +124,9 @@ PowerBI Notes
       Data connections 
       Transforming the raw data into actionable insights
       Creating compelling reports
-
-
+      Harness the data visualisation techniques
+      DAX
+      ETL process. 
 
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
