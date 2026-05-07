@@ -122,6 +122,9 @@ PowerBI Notes
 
       Data modelling 
       Data connections 
+      Transforming the raw data into actionable insights
+      Creating compelling reports
+
 
 
 #There are 3 types of data structures in pandas
