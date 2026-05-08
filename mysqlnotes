@@ -1,0 +1,47 @@
+-- 07-05-2026 --
+-- use the database SQL_TRAINING_12
+USE SQL_TRAINING_12;
+-- Create a table students having attributes SID,SNAME,SMARKS
+CREATE TABLE STUDENTS(
+SID INT PRIMARY KEY,
+SNAME VARCHAR(60),
+SMARKS VARCHAR(60));
+-- insert information in to table students
+INSERT INTO STUDENTS(SID,SNAME,SMARKS) VALUES
+(101,"JHON",67),
+(102,"MEDHA",72),
+(103,"AJAY",64),
+(104,"siemen",80),
+(105,"jayanth",77),
+(106,"Navin",90),
+(107,"areef",85),
+(108,"mani",54),
+(109,"ram",60),
+(110,"neluofer",75);
+-- Q) get the records of student id 101
+-- '*' --> default all the column
+SELECT * FROM STUDENTS
+WHERE SID=101;
+-- 'Where' is clause used to apply condition or filter the data
+-- what is clause ? -- clauses are used to retrive, filter and organize the data in sql query
+-- How many types of clauses --> 6types
+-- WHERE,HAVING,GROUP BY, ORDER BY, FROM, DISTINCT
+-- comaprision operators or relational operators --> 6types -- =,!=,>=,<=,<,>
+-- Q)write a query to get the records of students whose marks is >= 80
+SELECT * FROM STUDENTS WHERE SMARKS>=80;
+-- Logical operators --> IN,BETWEEN, AND, OR, NOT, IS, LIKE
+-- Q) get the records of students whos e marks between 60 to 75
+SELECT * FROM STUDENTS WHERE SMARKS>=60 AND SMARKS<=75;
+SELECT * FROM STUDENTS WHERE SMARKS BETWEEN 60 AND 75;
+-- String matching--> regular expression --> LIKE, %(to match with remaining characters)
+-- Q) get the records of the student whose name starts with "m"
+SELECT * FROM STUDENTS WHERE SNAME LIKE "M%";
+-- Q) get the records of the student whose name having "ee"
+SELECT * FROM STUDENTS WHERE SNAME LIKE "%EE%";
+-- q) dont know the first 2 letter and known next 2 letter "vi" GET THE records of students
+-- for unknown characters use "_" to match with the string
+SELECT * FROM STUDENTS WHERE SNAME LIKE "__VI%";
+-- get the records of the student use name ends with letter "N"
+SELECT * FROM STUDENTS WHERE SNAME LIKE "%N";
+-- get the records of students with sid 101,106,109
+SELECT * FROM STUDENTS WHERE SID IN(101,106,109);
