@@ -125,6 +125,11 @@ PowerBI Notes
       Harness the data visualisation techniques
       DAX
       ETL process. 
+MySQL Notes
+
+      basics of mysql
+      basice query's
+      how create , insert , delete table
 
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
