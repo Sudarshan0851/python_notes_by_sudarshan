@@ -155,3 +155,7 @@ Series :- 1D labelled array
 4. Modify and experiment
 
 ---
+
+
+## License
+This project is open-source and free to use.
