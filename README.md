@@ -131,6 +131,10 @@ MySQL Notes
       basice query's
       how create , insert , delete table
 
+python coding practice (revision)
+
+      there are 5 sections
+
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
 #2. DataFrame :- 2D like tabular format having rows and columns
