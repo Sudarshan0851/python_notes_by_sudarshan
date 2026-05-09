@@ -134,6 +134,7 @@ MySQL Notes
 python coding practice (revision)
 
       there are 5 sections
+      each section have 4-5 quetion 
 
 #There are 3 types of data structures in pandas
 #1. Series :- 1D labelled array
