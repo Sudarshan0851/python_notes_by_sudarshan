@@ -130,6 +130,8 @@ MySQL Notes
       basics of mysql
       basice query's
       how create , insert , delete table
+      conditions statement
+      logical operators in sql
 
 python coding practice (revision)
 
