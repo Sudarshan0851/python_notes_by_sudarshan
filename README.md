@@ -125,6 +125,7 @@ PowerBI Notes
       Harness the data visualisation techniques
       DAX
       ETL process. 
+      
 MySQL Notes
 
       basics of mysql
