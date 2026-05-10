@@ -1,3 +1,58 @@
+-- what is SQL or define sql?
+-- Structure query language is programming language used to communicate with datbase.
+
+-- what is database?
+-- The place where we can store the data
+
+-- what is data?
+
+-- raw form of information is known as data
+-- descrete (fixed wholenumber) or continuous (infinity values with in a range) values is known as data
+-- to communicate with database or to store data in database or to manipulate data in database
+-- we use different database languages so there 5 different database languages used for CRUD
+-- create the data, update the data, retrive the data , delete the data
+
+-- 1.Data defination language -- DDL -- CREATE,DROP,ALTER, TRUNCATE
+-- 2.Data Mnaipulation Language -- DML -- UPDATE,DELETE,INSERT
+-- 3.Data Query Language -- DQL -- SELECT
+-- 4.Data control language -- DCL -- GRANT, REVOKE
+-- 5.Transaction control language -- TCL -- ROLLBACK, COMMIT, SAVEPOINT
+
+-- what is schemas?
+
+-- schemas are the blue-print of your database
+-- Q)create a database "sql_training_12"
+CREATE DATABASE SQL_TRAINING_12;
+-- ; semi colon indicates the completion of your query
+-- q) use the SQL_TRAINING_12;
+USE SQL_TRAINING_12;
+
+-- Q)create table customers with attributes(columns) cust_id,first_name,last_name,country,phone
+
+CREATE TABLE CUSTOMERS(
+CUST_ID INT,
+FIRST_NAME VARCHAR(60),
+LAST_NAME VARCHAR(60),
+COUNTRY VARCHAR(60),
+PHONE INT);
+-- Q)Insert some data into table customers
+INSERT INTO CUSTOMERS(CUST_ID,FIRST_NAME,LAST_NAME,COUNTRY,PHONE)VALUES
+(1,"sk","shahul","India",96299299),
+(2,"N","Abhi","USA",736356256);
+-- Q)check the data of customers
+SELECT * FROM CUSTOMERS;
+-- INT --> can takes the numbers upto 9 digits
+-- Bigint --> can takes the more then 9 digits
+-- Varchar is a string type of data
+-- Diff b/w drop and truncate?
+-- Drop delete all the table or datbase
+-- where truncate remove only the rows and returns empty table
+-- Q)remove all the data from customers
+TRUNCATE TABLE CUSTOMERS;
+SELECT * FROM CUSTOMERS;
+-- Q)remove customer table
+DROP TABLE CUSTOMERS;
+
 -- 07-05-2026 --
 -- use the database SQL_TRAINING_12
 USE SQL_TRAINING_12;
