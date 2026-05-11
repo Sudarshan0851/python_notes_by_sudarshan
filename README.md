@@ -133,6 +133,9 @@ MySQL Notes
       how create , insert , delete table
       conditions statement
       logical operators in sql
+      aggrigate functions
+      creating new function learn about aggrigate function 
+      where , having and group by
 
 python coding practice (revision)
 
