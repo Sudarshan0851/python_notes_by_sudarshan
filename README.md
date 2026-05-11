@@ -170,9 +170,6 @@ Series :- 1D labelled array
 2. Read notes with examples
 3. Practice alongside by running code
 4. Modify and experiment
-
 ---
-
-
 ## License
 This project is open-source and free to use.
