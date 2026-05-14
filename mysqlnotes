@@ -156,3 +156,62 @@ where product_type_id is not null
 group by product_type_id
 order by max(price) desc limit 2;
 
+-- ######12-05-2026#######
+-- JOINS :- are used to combine records from 2 or more tables based on related columns
+-- RDBMS :- has related information in other tables based on common column(foreign keys) we join the tables
+-- Normalize the table by separating the data in to logical tables
+-- Normalization is a backend design used to reduce the data redundency (empty values,duplicates)
+USE SQL_TRAINING_12;
+
+-- create a table employees
+
+CREATE TABLE EMPLOYEES(
+EMP_ID INT PRIMARY KEY,
+EMP_NAME VARCHAR(50),
+DEPT_ID INT);
+INSERT INTO EMPLOYEES(EMP_ID,EMP_NAME,DEPT_ID) VALUES
+(1,"Abhi",10),
+(2,"bobby",20),
+(3,"Dinesh",NULL),
+(4,"Charan",30);
+-- create a table departments
+CREATE TABLE DEPARTMENTS(
+DEPT_ID INT PRIMARY KEY,
+DEPT_NAME VARCHAR(60));
+INSERT INTO DEPARTMENTS(DEPT_ID,DEPT_NAME) VALUES
+(10,"HR"),
+(20,"IT"),
+(30,"FINANCE"),
+(40,"MARKETING");
+
+-- Check the employees\
+
+SELECT * FROM EMPLOYEES;
+SELECT * FROM DEPARTMENTS;
+-- There 6 types of join in SQL
+-- when it come to reality we use only 3 joins
+-- 1.left join (left outer join):- get all records from left table and matched records from right table
+SELECT E.EMP_NAME,D.DEPT_NAME
+FROM EMPLOYEES E LEFT JOIN DEPARTMENTS D
+ON E.DEPT_ID = D.DEPT_ID;
+-- 2.right join:- get all the records from right table and matched records from left table
+SELECT E.EMP_NAME,D.DEPT_NAME
+FROM EMPLOYEES E RIGHT JOIN DEPARTMENTS D
+ON E.DEPT_ID = D.DEPT_ID;
+-- 3.Inner join :- get matched records from both joins
+SELECT E.EMP_NAME,D.DEPT_NAME
+FROM EMPLOYEES E INNER JOIN DEPARTMENTS D
+ON E.DEPT_ID = D.DEPT_ID;
+-- 4.FULL JOIN :- SQL we dont have full join we need to apply union to the left join
+SELECT E.EMP_NAME,D.DEPT_NAME
+FROM EMPLOYEES E LEFT JOIN DEPARTMENTS D
+ON E.DEPT_ID = D.DEPT_ID
+UNION
+SELECT E.EMP_NAME,D.DEPT_NAME
+FROM EMPLOYEES E RIGHT JOIN DEPARTMENTS D
+ON E.DEPT_ID = D.DEPT_ID;
+-- 5.CROSS JOIN :- USED TO PAIR with each values in right side table it avoids null values
+-- for cross join no need to have related columns
+SELECT E.EMP_NAME,D.DEPT_NAME
+FROM EMPLOYEES E CROSS JOIN DEPARTMENTS D
+-- 6. SELF JOIN --> LEFT JOIN --> A table can join by itself
