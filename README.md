@@ -136,7 +136,7 @@ MySQL Notes
       aggrigate functions
       creating new function learn about aggrigate function 
       where , having and group by
-      JOINS,LEFT JOIN,ROGHT JOIN,INNER KOIN,FULL JOIN,CROSS JOIN
+      JOINS,LEFT JOIN,ROGHT JOIN,INNER KOIN,FULL JOIN,CROSS JOIN,SELF JOIN
 
 python coding practice (revision)
 
