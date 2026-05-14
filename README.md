@@ -136,6 +136,9 @@ MySQL Notes
       aggrigate functions
       creating new function learn about aggrigate function 
       where , having and group by
+      JOINS
+      LEFT JOIN
+      ROGHT JOIN
 
 python coding practice (revision)
 
