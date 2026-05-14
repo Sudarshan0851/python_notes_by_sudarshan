@@ -139,6 +139,8 @@ MySQL Notes
       JOINS
       LEFT JOIN
       ROGHT JOIN
+      INNER KOIN
+      FULL JOIN
 
 python coding practice (revision)
 
