@@ -139,6 +139,7 @@ MySQL Notes
       JOINS,LEFT JOIN,ROGHT JOIN,INNER KOIN,FULL JOIN,CROSS JOIN,SELF JOIN
       Stored Procedures
       DELIMETER
+      Parameter
 
 python coding practice (revision)
 
