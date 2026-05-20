@@ -215,3 +215,49 @@ ON E.DEPT_ID = D.DEPT_ID;
 SELECT E.EMP_NAME,D.DEPT_NAME
 FROM EMPLOYEES E CROSS JOIN DEPARTMENTS D
 -- 6. SELF JOIN --> LEFT JOIN --> A table can join by itself
+
+
+-- ######13-05-2026########
+
+USE SQL_TRAINING_12;
+
+-- Stored Procedures :- in mysql is a saved sql program stored inside the database
+
+-- Q)why we use the stored procedures?
+
+-- Instead of writing a query again and again we create a procedure once and call it whenever needed.
+
+-- CHECK the student
+
+SELECT * FROM STUDENTS;
+DELIMITER $$
+CREATE PROCEDURE GetStudents()
+BEGIN
+SELECT * FROM STUDENTS;
+END $$
+DELIMITER ;
+-- call stored procedure
+CALL GetStudents();
+-- $$ indicated temporarily changing delimiter
+-- so mysql query ends with ; but procedure contains multiple ; so we temporarly change delimiter to $$
+-- Q)Create a procedure to get the student marks above 70 --> Topstudents
+SELECT * FROM STUDENTS;
+DELIMITER $$
+CREATE PROCEDURE TOPStudents()
+BEGIN
+SELECT * FROM STUDENTS
+WHERE SMARKS>70;
+END $$
+DELIMITER ;
+CALL TOPSTUDENTS();
+-- Parameter :- a varaible created when we define a procedure is known as parameter
+-- Q) create procedure with an parameter where get the student info based on student ID
+SELECT * FROM STUDENTS;
+DELIMITER $$
+CREATE PROCEDURE GetStudentbyID(IN student_id int)
+BEGIN
+SELECT * FROM STUDENTS
+WHERE SID = STUDENT_ID;
+END $$
+DELIMITER ;
+CALL GETSTUDENTBYID(101);
