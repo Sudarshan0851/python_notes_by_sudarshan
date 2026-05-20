@@ -137,6 +137,7 @@ MySQL Notes
       creating new function learn about aggrigate function 
       where , having and group by
       JOINS,LEFT JOIN,ROGHT JOIN,INNER KOIN,FULL JOIN,CROSS JOIN,SELF JOIN
+      Stored Procedures
 
 python coding practice (revision)
 
