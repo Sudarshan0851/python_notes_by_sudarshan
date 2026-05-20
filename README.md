@@ -138,6 +138,7 @@ MySQL Notes
       where , having and group by
       JOINS,LEFT JOIN,ROGHT JOIN,INNER KOIN,FULL JOIN,CROSS JOIN,SELF JOIN
       Stored Procedures
+      DELIMETER
 
 python coding practice (revision)
 
