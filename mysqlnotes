@@ -261,3 +261,62 @@ WHERE SID = STUDENT_ID;
 END $$
 DELIMITER ;
 CALL GETSTUDENTBYID(101);
+
+#python mysql connector is used to connect python programming with Mysql database
+#uses:-
+"""
+1. to store the data
+2. retrive the data
+3. update the date
+4. delete the data
+#to work with mysql connector install package mysql-connetor-python"""
+#there are 2 ways to install the packages
+import mysql.connector
+#connect python with mysql database
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="1234",
+    database="SQL_TRAINING_12"
+)
+print("connected successfully")
+#create a "cursor" acts like a bridge to retrive the data and execute the query
+cursor = conn.cursor()
+#create a table
+cursor.execute("""CREATE TABLE IF NOT EXISTS PYTHON_SQL(
+ID INT PRIMARY KEY,
+NAME VARCHAR(60),
+COURSE VARCHAR(60))""")
+#print("table is created successfully")
+#insert the data
+query = "INSERT INTO PYTHON_SQL (ID, NAME, COURSE) VALUES (%s,%s, %s)"
+# values = (101,"shahul","DS")
+#execute the query
+#cursor.execute(query, values)
+"""conn.commit()
+cursor.execute("SELECT * FROM PYTHON_SQL")"""
+"""for row in cursor.fetchall():
+    print(row)"""
+cursor.close()
+#conn.close()
+#insert multiple rows
+cursor = conn.cursor()
+query = "INSERT INTO PYTHON_SQL (ID, NAME, COURSE) VALUES (%s,%s, %s)"
+"""values = [
+    (102,"medha","fullstack"),
+    (103,"ajay","cyber"),
+    (104,"meena","java")
+]
+cursor.executemany(query,values)
+conn.commit()"""
+#replace the course of medha to digital marketing
+cursor.execute("""UPDATE PYTHON_SQL 
+SET COURSE='Digital' 
+WHERE ID=102""")
+conn.commit()
+#string can be declared in single quotes ' '
+#when we execute query please ensure your before lines should not contain select * query
+cursor.execute("""DELETE FROM PYTHON_SQL WHERE ID=102""")
+conn.commit()
+cursor.close()
+conn.close()
