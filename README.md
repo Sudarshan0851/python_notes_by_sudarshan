@@ -58,6 +58,7 @@ The content covers fundamentals to intermediate-level topics with examples.
       4 modes --> x,w,a,r
       Pickling
       #serialisation
+      
 -OOP's Notes
 
       what is OOP
@@ -88,6 +89,7 @@ The content covers fundamentals to intermediate-level topics with examples.
       Boolean Indexing
       reshaping array's
       Genarate Random Numbers
+      
 pandas
 
       Pandas Introduction
