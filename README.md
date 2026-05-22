@@ -9,6 +9,7 @@ The content covers fundamentals to intermediate-level topics with examples.
 ---
 
 ##Topics Covered
+
 - python_notebook (Syntax, Variables, Data Types)
 
       Numerical Data types
