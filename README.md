@@ -76,6 +76,7 @@ The content covers fundamentals to intermediate-level topics with examples.
 
       practice quetion python
       map,loops,conditional statments
+      
 -Numpy notes
 
       Introduction to Numpy
